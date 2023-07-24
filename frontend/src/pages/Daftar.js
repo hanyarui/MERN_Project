@@ -12,7 +12,7 @@ const Daftar = () => {
 
   const fetchBooks = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/books");
+      const response = await axios.get("https://mern-project-api-gamma.vercel.app/books");
       setBooks(response.data);
     } catch (error) {
       console.log(error);
@@ -22,7 +22,7 @@ const Daftar = () => {
   const handleDelete = (id) => {
     // Kirim permintaan delete ke endpoint API untuk menghapus buku berdasarkan ID
     axios
-      .delete(`http://localhost:5000/books/${id}`)
+      .delete(`https://mern-project-api-gamma.vercel.app/books/${id}`)
       .then((response) => {
         // Berhasil menghapus buku
         console.log("Buku berhasil dihapus");

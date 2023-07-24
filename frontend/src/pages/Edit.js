@@ -11,7 +11,7 @@ function Edit() {
   const { id } = useParams();
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/books/${id}`).then((res) => {
+    axios.get(`https://mern-project-api-gamma.vercel.app/books/${id}`).then((res) => {
       setTitle(res.data.title);
       setAuthor(res.data.author);
       setDescription(res.data.description);

@@ -73,7 +73,7 @@ const Register = () => {
   useEffect(() => {
     const getUsers = async () => {
       try {
-        const response = await axios.post("http://localhost:5000/users");
+        const response = await axios.post("https://mern-project-api-gamma.vercel.app/users");
         setUsers(response.data);
       } catch (error) {
         console.log(error);
@@ -98,7 +98,7 @@ const Register = () => {
           validationSchema={validationSchema}
           onSubmit={(values, { setSubmitting }) => {
             axios
-              .post("http://localhost:5000/users", values)
+              .post("https://mern-project-api-gamma.vercel.app/users", values)
               .then((response) => {
                 alert("Anda Berhasil Mendaftar!");
                 navigate("/login");

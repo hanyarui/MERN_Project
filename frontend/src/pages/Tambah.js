@@ -19,7 +19,7 @@ const Tambah = () => {
       formData.append("author", author);
       formData.append("description", description);
 
-      await axios.post("http://localhost:5000/add", formData, {
+      await axios.post("https://mern-project-api-gamma.vercel.app/add", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },

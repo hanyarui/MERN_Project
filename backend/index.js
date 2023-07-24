@@ -7,7 +7,7 @@ import userRoute from "./routes/UserRoute.js";
 const app = express();
 app.use(cors(
   {
-    origin: [""],
+    origin: ["https://mern-project-frontend-gilt.vercel.app/"],
     methods: ["POST", "GET"],
     credentials: true
   }

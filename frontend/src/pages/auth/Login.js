@@ -77,7 +77,7 @@ const Login = () => {
           validationSchema={validationSchema}
           onSubmit={(values, { setSubmitting }) => {
             axios
-              .post("http://localhost:5000/login", values) // Mengirim permintaan login ke endpoint '/login' di backend
+              .post("https://mern-project-api-gamma.vercel.app/login", values) // Mengirim permintaan login ke endpoint '/login' di backend
               .then((response) => {
                 alert("Login berhasil!");
                 navigate("/");

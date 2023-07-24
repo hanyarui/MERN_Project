@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/books")
+      .get("https://mern-project-api-gamma.vercel.app/books")
       .then((response) => setBooks(response.data))
       .catch((error) => console.log(error));
   }, []);

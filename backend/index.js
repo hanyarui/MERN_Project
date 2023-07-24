@@ -5,7 +5,13 @@ import bookRoute from "./routes/BookRoute.js";
 import userRoute from "./routes/UserRoute.js";
 
 const app = express();
-app.use(cors());
+app.use(cors(
+  {
+    origin: ["https://mern-project-api.vercel.app"],
+    methods: ["POST", "GET"],
+    credentials: true
+  }
+));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

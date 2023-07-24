@@ -1,0 +1,58 @@
+/* .App {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+/* .container {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  display: inline;
+  width: 15%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+} */

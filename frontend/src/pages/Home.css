@@ -1,0 +1,15 @@
+.konten {
+  position: relative;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  text-align: center;
+  background-color: #3f3f3f80;
+  font-weight: bolder;
+  padding: 20px;
+  border-radius: 20px;
+}
+.konten .kalimat {
+  font-size: large;
+}
